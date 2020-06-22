@@ -1,0 +1,97 @@
+.calendar {
+    width: 500px;
+}
+
+.calendarFilter {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.calendarFilter div {
+    margin-right: 1em;
+}
+
+.calendarNav {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    text-align: center;
+}
+
+.month {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(7, 1fr);
+    width: 100%;
+}
+
+.monthSelect {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+}
+
+.yearSelect {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+}
+
+.monthHeader {
+    text-align: center;
+
+}
+
+.dayHeader {
+    width: 100%;
+}
+
+.week-0 {
+    grid-column: 1;
+}
+.week-1 {
+    grid-column: 2;
+}
+.week-2 {
+    grid-column: 3;
+}
+.week-3 {
+    grid-column: 4;
+}
+.week-4 {
+    grid-column: 5;
+}
+.week-5 {
+    grid-column: 6;
+}
+.week-6 {
+    grid-column: 7;
+}
+
+.day {
+    height: 75px;
+    text-align: center;
+    border-radius: 15%;
+}
+
+.event {
+    width: 100%;
+    text-align: center;
+    border-radius: 15%;
+}
+
+.apply {
+    background-color: lightgreen;
+    
+}
+
+.interview {
+    background-color: gold;
+}
+
+.network {
+    background-color: purple;
+}
